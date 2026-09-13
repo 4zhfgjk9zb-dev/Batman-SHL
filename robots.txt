@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://batman-shl.de/sitemap.xml

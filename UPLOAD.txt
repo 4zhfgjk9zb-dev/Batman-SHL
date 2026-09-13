@@ -1,0 +1,10 @@
+FINALVERSION BATMAN SHL
+
+1. ZIP entpacken.
+2. Den INHALT dieses Ordners direkt in die oberste Ebene des GitHub-Repositories Batman-SHL hochladen.
+3. Vorhandene gleichnamige Dateien ersetzen.
+4. index.html muss direkt im Hauptverzeichnis liegen.
+5. Bei IONOS nichts mehr ändern.
+
+Logo: Originaldatei unverändert übernommen.
+Bilder: lokal im Hauptverzeichnis, hochauflösend optimiert.
