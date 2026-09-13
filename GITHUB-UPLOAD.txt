@@ -1,0 +1,16 @@
+WICHTIG FÜR GITHUB PAGES
+
+Bitte NICHT den Ordner als Unterordner hochladen.
+Auf der obersten Ebene des Repositories muessen direkt liegen:
+
+index.html
+styles.css
+script.js
+logo.jpg
+hero-bad.jpg
+mitarbeiter.jpg
+bad-vorher.jpg
+bad-nachher.jpg
+
+Diese Version verwendet absichtlich KEINEN assets-Unterordner, damit die Bilder auf GitHub Pages sicher gefunden werden.
+Die Desktop-Gestaltung wurde nicht verändert; es wurden nur die Bildpfade robust gemacht.
