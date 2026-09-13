@@ -1,0 +1,21 @@
+BATMAN SHL – MOBILE FIX
+
+Diese Version lässt die Desktop-Darstellung unverändert.
+Geändert wurden nur Regeln innerhalb @media (max-width: 640px).
+Zusätzlich sind alle Bilddateien vollständig enthalten und das originale Logo wurde unverändert übernommen.
+
+Für GitHub:
+1. Im Repository die vorhandenen Dateien index.html, styles.css, script.js und den Ordner assets ersetzen.
+2. Darauf achten, dass der Ordner assets direkt neben index.html liegt.
+3. Nicht den äußeren Ordner hochladen, sondern dessen Inhalt.
+4. Danach Commit changes.
+
+Benötigte Struktur:
+/index.html
+/styles.css
+/script.js
+/assets/logo.jpg
+/assets/hero-bad.jpg
+/assets/mitarbeiter.jpg
+/assets/bad-vorher.jpg
+/assets/bad-nachher.jpg
