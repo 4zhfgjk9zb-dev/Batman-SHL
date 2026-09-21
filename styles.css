@@ -84,3 +84,49 @@ a{color:inherit;text-decoration:none}
 @media(max-width:380px){
   .brand img{width:165px}.hero h1{font-size:36px}.hero-note{max-width:180px;font-size:15px}.btn{font-size:13px;padding-inline:14px}
 }
+
+
+/* Bilddarstellung: Originalproportionen erhalten */
+.project-visual{
+  aspect-ratio:auto;
+  min-height:0;
+  background:#eef3f7;
+  display:flex;
+  flex-direction:column;
+}
+.project-visual img{
+  display:block;
+  width:100%;
+  height:auto;
+  max-height:none;
+  object-fit:contain;
+  object-position:center;
+}
+.project-visual figcaption{
+  position:absolute;
+}
+
+/* Mitarbeiterfoto: weniger aggressiver Zuschnitt */
+.why-photo{
+  background-size:contain;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-color:#083f70;
+}
+
+/* Hero: Motiv auf kleinen Displays vollständiger zeigen */
+@media(max-width:900px){
+  .hero-media{
+    background-size:contain;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-color:#eef6fb;
+  }
+  .project-visual{aspect-ratio:auto;}
+}
+@media(max-width:640px){
+  .project-visual{aspect-ratio:auto;}
+  .project-visual img{width:100%;height:auto;object-fit:contain;}
+  .why-photo{background-size:contain;background-position:center;}
+  .hero-media{background-size:contain;background-position:center;}
+}
